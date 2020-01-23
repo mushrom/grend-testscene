@@ -1,6 +1,6 @@
 # Blender v2.81 (sub 16) OBJ File: ''
 # www.blender.org
-mtllib frig.mtl
+mtllib boy.mtl
 o RPG_Boy
 v 0.093530 0.233436 0.172814
 v 0.061732 0.335906 0.197874
