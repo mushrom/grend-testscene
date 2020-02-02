@@ -12,6 +12,7 @@ varying mat3 TBN;
 uniform sampler2D diffuse_map;
 uniform sampler2D specular_map;
 uniform sampler2D normal_map;
+uniform sampler2D ambient_occ_map;
 
 uniform mat4 m, v, p;
 uniform mat3 m_3x3_inv_transp;
@@ -106,9 +107,11 @@ void main(void) {
 		vec3 specular_reflection = vec3(0);
 
 #if ENABLE_DIFFUSION
+		vec3 aoidx = texture2D(ambient_occ_map, flipped_texcoord).rgb;
 		diffuse_reflection =
 			// diminish contribution from diffuse lighting for a more cartoony look
 			//0.5 *
+			aoidx *
 			attenuation * vec3(lights[i].diffuse) * vec3(anmaterial.diffuse)
 			* max(0.0, dot(normal_dir, light_dir));
 #endif
