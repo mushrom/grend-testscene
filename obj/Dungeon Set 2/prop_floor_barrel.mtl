@@ -1,0 +1,20 @@
+newmtl Steel
+Ka 0.0000 0.0000 0.0000
+Kd 0.6882 0.7431 0.7627
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 10
+map_Kd ../../tex/iron-rusted4-Unreal-Engine/iron-rusted4-basecolor.png
+map_Ns ../../tex/iron-rusted4-Unreal-Engine/iron-rusted4-roughness.png
+map_norm ../../tex/iron-rusted4-Unreal-Engine/iron-rusted4-normal.png
+
+newmtl Wood
+Ka 0.0000 0.0000 0.0000
+Kd 0.8549 0.7451 0.6118
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0
+map_Kd ../../tex/dims/Textures/Boards.JPG
+map_norm ../../tex/dims/Textures/Textures_N/Boards_N.jpg

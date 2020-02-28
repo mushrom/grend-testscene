@@ -1,0 +1,12 @@
+newmtl Dark_Grey
+Ka 0.0000 0.0000 0.0000
+Kd 0.6118 0.6118 0.6118
+Ks 0.3000 0.3000 0.3000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 3
+map_Kd ../../tex/octostone-Unreal-Engine/256px-octostoneAlbedo.png
+map_Ns ../../tex/octostone-Unreal-Engine/256px-octostoneRoughness2.png
+map_ao ../../tex/octostone-Unreal-Engine/256px-octostoneAmbient_Occlusionc.png
+map_norm ../../tex/octostone-Unreal-Engine/256px-octostoneNormalc.png
+

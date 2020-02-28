@@ -1,0 +1,10 @@
+newmtl Iron
+Ka 0.0000 0.0000 0.0000
+Kd 0.4784 0.4784 0.4784
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 10
+map_Kd ../../tex/iron-rusted4-Unreal-Engine/iron-rusted4-basecolor.png
+map_Ns ../../tex/iron-rusted4-Unreal-Engine/iron-rusted4-roughness.png
+map_norm ../../tex/iron-rusted4-Unreal-Engine/iron-rusted4-normal.png
